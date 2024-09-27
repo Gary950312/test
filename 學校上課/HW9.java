@@ -2,9 +2,9 @@ public class HW9{
 
     public static void main(String[] args)
       {
-          while{
-             java.util.Scanner input=new java.util.Scanner(System.in);
-             int num;
+        while(true){
+        java.util.Scanner input=new java.util.Scanner(System.in);
+        int num;
 
         System.out.print("請輸入一個整數:");
         num=input.nextInt();
@@ -17,7 +17,7 @@ public class HW9{
          {
             System.out.print(num+"是奇數");
          }
-        }
+        
       }
-
+    }
 }
