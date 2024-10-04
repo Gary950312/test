@@ -1,15 +1,18 @@
-public class HW14 {
+import java.util.Scanner;
+ public class HW14 {
 
 	public static void main(String[] args) {
+		java.util.Scanner input=new java.util.Scanner(System.in);
 		
 		int score;
 		char grade;
+		score=input.nextInt();
 		
 		if(score>=90) 
-		 {
-		  grade='A';
-		  System.out.println("成績分級為 A ");
-	     }
+		  {
+		   grade='A';
+		   System.out.println("成績分級為 A ");
+	      }
 		 else if(score<=89 && score>=80) 
 		  {
 		   grade='B';
